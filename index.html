@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+  </head>
 
-<head>
-	<title>Parcel Sandbox</title>
-	<meta charset="UTF-8" />
-</head>
+  <body>
+    <div id="app"></div>
+    <h1 id="number">0</h1>
+    <div>
+      <button id="plus">+1</button>
+      <button id="minus">-1</button>
+    </div>
+    <button class="popup">팝업</button>
+    <div class="modal-wrap" style="display: none;">
+      <div class="modal">
+        <div class="moal-title">안녕하세요.</div>
+        <p>모달의 내용을 팝업으로 보여줍니다.</p>
+        <div class="close-wapper">
+          <button class="close">닫기</button>
+        </div>
+      </div>
+    </div>
 
-<body>
-	<div id="app"></div>
-
-	<script src="src/index.js">
-	</script>
-</body>
-
+    <script src="src/index.js"></script>
+  </body>
 </html>
